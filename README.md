@@ -47,60 +47,6 @@ FraudDetection_YourName/
     └── interactive_scatter.html
 ```
 
----
-
-##  Setup Instructions
-
-### 1. Clone / Download
-```bash
-git clone https://github.com/yourusername/FraudDetection_YourName.git
-cd FraudDetection_YourName
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Get the Dataset
-1. Go to [https://www.kaggle.com/c/ieee-fraud-detection/data](https://www.kaggle.com/c/ieee-fraud-detection/data)
-2. Accept competition rules
-3. Download `train_transaction.csv` and `train_identity.csv`
-4. Place both files inside the `data/` folder
-
-### 4. Run the Notebook
-```bash
-jupyter notebook analysis.ipynb
-# OR in Google Colab — upload the notebook and data files
-```
-Run all cells top-to-bottom. The notebook will:
-- Train all 3 models
-- Generate all charts
-- Save `dashboard/model.pkl`
-
-### 5. Run the Streamlit Dashboard
-```bash
-cd dashboard
-streamlit run app.py
-```
-
----
-
-##  Tasks Completed
-
-| Task | Description | Status |
-|------|-------------|--------|
-| Task 1 | Data Loading, Merging & EDA | ✅ |
-| Task 2 | Preprocessing, SMOTE & Feature Engineering | ✅ |
-| Task 3 | Model Training, Comparison & Threshold Optimization | ✅ |
-| Task 4 | Explainable AI with SHAP Values | ✅ |
-| Task 5 | Risk Segmentation & Fraud Pattern Analysis | ✅ |
-| Task 6 | Streamlit Dashboard (3 pages) | ✅ |
-| Task 7 | 5+ Visualizations incl. Interactive Plotly | ✅ |
-| Task 8 | Business Insights & Recommendations | ✅ |
-
----
-
 ##  Models Used
 
 | Model | Type | Purpose |
@@ -122,16 +68,6 @@ streamlit run app.py
 
 ---
 
-##  Deploying to Streamlit Cloud
-
-1. Push your project to a GitHub repository
-2. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud)
-3. Click **New app** → Connect your GitHub repo
-4. Set **Main file path** to `dashboard/app.py`
-5. Click **Deploy**
-6. Copy the live URL and add it to this README
-
----
 
 ##  Tech Stack
 
