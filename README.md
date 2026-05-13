@@ -10,8 +10,7 @@ An end-to-end fraud detection pipeline built on the IEEE-CIS Fraud Detection dat
 The system combines state-of-the-art machine learning, severe class imbalance handling,
 SHAP Explainable AI, and a live interactive Streamlit dashboard.
 
-**Live Dashboard:** [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
-*(Update this link after deploying to Streamlit Community Cloud)*
+**Live Dashboard:** https://fraud-detection-app-app-ogqy7kwqsydmantwyappu3h.streamlit.app/
 
 ---
 
