@@ -64,10 +64,6 @@ Class imbalance handling using SMOTE
 
 ---
 
-##  Submission
-
-Submit via: [https://docs.google.com/forms/d/e/1FAIpQLSeQbkVrKn_UM6eZ6JoK9oxa_cXb1DbsDoH87ap_8MRu_RU5Sw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeQbkVrKn_UM6eZ6JoK9oxa_cXb1DbsDoH87ap_8MRu_RU5Sw/viewform)
-
 
 ## Author
 Om Javanjal
